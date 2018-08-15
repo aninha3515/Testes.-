@@ -4,7 +4,7 @@ pipeline {
             image 'ruby'
         }
     }
-    environnmrnt {
+    environment {
         CI = true
     }
     stages {
