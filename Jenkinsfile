@@ -13,6 +13,11 @@ pipeline {
                 sh "bundle install"
             }
         }
+        stage('Run features'){
+            steps {
+                sh"cucumber"
+            }
+        }
 
     }
 }
